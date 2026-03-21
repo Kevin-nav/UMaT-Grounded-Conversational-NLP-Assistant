@@ -84,6 +84,6 @@ Local validation flow:
 
 Full training flow:
 
-- upload the project data to `MyDrive/umat_nlp_project/`
-- open `backend/notebooks/grounded_conversational_nlp_colab.ipynb` in Google Colab
-- train and evaluate the retriever and generator there
+- local full pipeline: from `backend/`, run `python -m scripts.run_full_ml_pipeline`
+- Colab full pipeline: run `python -m scripts.run_full_ml_pipeline --output-root /content/drive/MyDrive/umat_nlp_project`
+- notebook entry point: `backend/notebooks/grounded_conversational_nlp_colab.ipynb`

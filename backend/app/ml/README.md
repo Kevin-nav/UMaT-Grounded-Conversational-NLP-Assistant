@@ -25,3 +25,20 @@ Primary Google Drive folders:
 - `MyDrive/umat_nlp_project/models/generator/`
 - `MyDrive/umat_nlp_project/metrics/`
 - `MyDrive/umat_nlp_project/notebooks/`
+
+Primary one-command runner:
+
+- local or Colab module: `python -m scripts.run_full_ml_pipeline`
+
+What it writes:
+
+- `data/raw/UMaT Lecturer Information Gathering.md`
+- `data/raw/seed/*.json`
+- `data/processed/canonical_dataset.json`
+- `data/synthetic/synthetic_dialogues.json`
+- `models/retriever/retriever_artifact.json`
+- `models/generator/generator_artifact.json`
+- `metrics/retriever_metrics.json`
+- `metrics/generator_metrics.json`
+- `metrics/evaluation_summary.json`
+- `metrics/run_summary.json`

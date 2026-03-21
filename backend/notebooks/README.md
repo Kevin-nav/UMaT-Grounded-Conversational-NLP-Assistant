@@ -1,12 +1,18 @@
 # Colab Notebook
 
-Use `grounded_conversational_nlp_colab.ipynb` in Google Colab after uploading the project data to:
+Use `grounded_conversational_nlp_colab.ipynb` in Google Colab. The notebook now clones the repo, installs backend dependencies, and runs one script:
 
-- `MyDrive/umat_nlp_project/data/raw/`
-- `MyDrive/umat_nlp_project/data/processed/`
-- `MyDrive/umat_nlp_project/data/synthetic/`
-- `MyDrive/umat_nlp_project/models/retriever/`
-- `MyDrive/umat_nlp_project/models/generator/`
-- `MyDrive/umat_nlp_project/metrics/`
+- `python -m scripts.run_full_ml_pipeline --output-root /content/drive/MyDrive/umat_nlp_project`
 
-The notebook mounts Google Drive, installs dependencies, builds or loads the datasets, trains the retriever and generator, evaluates them, and exports artifacts back to Drive.
+Required Drive location:
+
+- `MyDrive/umat_nlp_project/`
+
+You do not need to pre-upload the JSON files or models. The script creates these folders and writes all artifacts into them:
+
+- `data/raw/`
+- `data/processed/`
+- `data/synthetic/`
+- `models/retriever/`
+- `models/generator/`
+- `metrics/`
