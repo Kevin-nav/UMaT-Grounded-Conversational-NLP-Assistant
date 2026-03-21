@@ -1,0 +1,484 @@
+[
+  {
+    "id": "john-agyekum-kufuor",
+    "full_name": "John Agyekum Kufuor",
+    "title": "His Excellency",
+    "rank_role": "Chancellor",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [],
+    "bio": "Former President of the Republic of Ghana As the titular head, his presence underscores the national strategic importance of the university. His role, while ceremonial, lends political weight to the university's expansion projects, such as the railway school.8",
+    "aliases": [
+      "His Excellency John Agyekum Kufuor"
+    ],
+    "source_section": "The Chancellery and Vice-Chancellery",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "richard-k-amankwah",
+    "full_name": "Richard K. Amankwah",
+    "title": "Prof",
+    "rank_role": "Vice Chancellor",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [
+      "Biohydrometallurgy",
+      "Galamsey Reclamation positions him as a technical leader"
+    ],
+    "bio": "PhD, FWAIMM, MSME, MGhIE. A Professor of Minerals Engineering Prof. Amankwah is not merely an administrator but an active academic. His background in Biohydrometallurgy and Galamsey Reclamation positions him as a technical leader. He has been pivotal in operationalizing the SRID and sustaining the vision of his predecessors. He actively publishes and guides the research direction of the university.3",
+    "aliases": [
+      "Prof. Richard K. Amankwah"
+    ],
+    "source_section": "The Chancellery and Vice-Chancellery",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "anthony-simons",
+    "full_name": "Anthony Simons",
+    "title": "Prof",
+    "rank_role": "Pro Vice Chancellor",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [],
+    "bio": "PhD (St. Petersburg State Mining Institute, Russia), MSc (Mogilev Machine Building Institute, Belarus) Prof. Simons brings a distinct international flavor to the administration. His specialization in Internal Combustion Engines, Heat Transfer, and Mining Transport Machinery aligns perfectly with the heavy machinery focus of a mining university. His Russian educational background is indicative of the historical technical cooperation between Ghana and the Eastern Bloc in the late 20th century. He holds the rank of Associate Professor.9",
+    "aliases": [
+      "Prof. Anthony Simons"
+    ],
+    "source_section": "The Chancellery and Vice-Chancellery",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "m-k-okrah",
+    "full_name": "M. K. Okrah",
+    "title": "Mr",
+    "rank_role": "Registrar",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [],
+    "bio": "",
+    "aliases": [
+      "Mr. M. K. Okrah"
+    ],
+    "source_section": "Central Administrative Registry",
+    "source_notes": "",
+    "is_active": true
+  },
+  {
+    "id": "j-sakoe",
+    "full_name": "J. Sakoe",
+    "title": "Mr",
+    "rank_role": "Finance Officer",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [],
+    "bio": "",
+    "aliases": [
+      "Mr. J. Sakoe"
+    ],
+    "source_section": "Central Administrative Registry",
+    "source_notes": "",
+    "is_active": true
+  },
+  {
+    "id": "franklina-adjoa-yebowaah",
+    "full_name": "Franklina Adjoa Yebowaah",
+    "title": "Dr",
+    "rank_role": "University Librarian",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [],
+    "bio": "",
+    "aliases": [
+      "Dr. Franklina Adjoa Yebowaah"
+    ],
+    "source_section": "Central Administrative Registry",
+    "source_notes": "",
+    "is_active": true
+  },
+  {
+    "id": "n-a-amegbey",
+    "full_name": "N. A. Amegbey",
+    "title": "Prof",
+    "rank_role": "Professor / Former Dean",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-mining-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [
+      "Environmental Safety in Mining",
+      "Mine Ventilation"
+    ],
+    "bio": "A titan in the field of mining education in Ghana. Prof. Amegbey previously served as the Dean of the Faculty (then the Faculty of Mineral Resources Technology). He has been instrumental in securing laboratory equipment and fostering industry relations. His research focuses on Environmental Safety in Mining and Mine Ventilation. He often represents the university in high-level donations and industry partnerships.11",
+    "aliases": [
+      "Prof. N. A. Amegbey"
+    ],
+    "source_section": "Department of Mining Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "saye-b-dolo",
+    "full_name": "Saye B. Dolo",
+    "title": null,
+    "rank_role": "Lecturer",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-mining-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "Active in the teaching of core mining modules. His inclusion in material handling assignments suggests a focus on Mine Machinery and Transport Systems.12",
+    "aliases": [],
+    "source_section": "Department of Mining Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "forster-teye",
+    "full_name": "Forster Teye",
+    "title": null,
+    "rank_role": "Lecturer",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-mining-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [
+      "mining operations"
+    ],
+    "bio": "Specializes in mining operations. Collaborates with other staff on curriculum delivery regarding Materials Handling, a critical component of surface mining logistics.12",
+    "aliases": [],
+    "source_section": "Department of Mining Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "francis-hackman",
+    "full_name": "Francis Hackman",
+    "title": null,
+    "rank_role": "Lecturer",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-mining-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [
+      "Drilling",
+      "Blasting technologies",
+      "essential for hard rock mining in the Tarkwa belt"
+    ],
+    "bio": "Engaged in the technical instruction of mining principles. His work likely covers Drilling and Blasting technologies, essential for hard rock mining in the Tarkwa belt.12",
+    "aliases": [],
+    "source_section": "Department of Mining Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "nana-essel-mensah",
+    "full_name": "Nana Essel Mensah",
+    "title": null,
+    "rank_role": "Lecturer",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-mining-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [
+      "Mine Design",
+      "Planning"
+    ],
+    "bio": "Part of the core teaching staff for undergraduate mining programs. His pedagogical focus includes Mine Design and Planning.12",
+    "aliases": [],
+    "source_section": "Department of Mining Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "richard-k-amankwah-vice-chancellor",
+    "full_name": "Richard K. Amankwah (Vice Chancellor)",
+    "title": "Prof",
+    "rank_role": "Key Figure",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-minerals-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "Although he holds the highest administrative office, Prof. Amankwah remains a defining figure in this department. His research in Biohydrometallurgy\u2014using bacteria to extract gold\u2014is world-renowned and sets the research agenda for the department",
+    "aliases": [
+      "Prof. Richard K. Amankwah (Vice Chancellor)"
+    ],
+    "source_section": "Department of Minerals Engineering",
+    "source_notes": "Although he holds the highest administrative office, Prof. Amankwah remains a defining figure in this department. His research in Biohydrometallurgy\u2014using bacteria to extract gold\u2014is world-renowned and sets the research agenda for the department",
+    "is_active": true
+  },
+  {
+    "id": "anthony-ewusi",
+    "full_name": "Anthony Ewusi",
+    "title": "Prof",
+    "rank_role": "Dean",
+    "faculty_id": "fges",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "",
+    "aliases": [
+      "Prof. Anthony Ewusi"
+    ],
+    "source_section": "Faculty of Geosciences and Environmental Studies (FGES)",
+    "source_notes": "",
+    "is_active": true
+  },
+  {
+    "id": "saviour-mantey",
+    "full_name": "Saviour Mantey",
+    "title": "Mr",
+    "rank_role": "Vice Dean",
+    "faculty_id": "fges",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "",
+    "aliases": [
+      "Mr. Saviour Mantey"
+    ],
+    "source_section": "Faculty of Geosciences and Environmental Studies (FGES)",
+    "source_notes": "",
+    "is_active": true
+  },
+  {
+    "id": "michael-aduah",
+    "full_name": "Michael Aduah",
+    "title": "Dr",
+    "rank_role": "Head of Department",
+    "faculty_id": "fges",
+    "department_id": "department-of-geomatic-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [
+      "Remote Sensing",
+      "Spatial Analysis"
+    ],
+    "bio": "As the HOD, Dr. Aduah is the academic lead for Geomatics. He has been pivotal in integrating Geographic Information Systems (GIS) into the curriculum. His leadership ensures that students are trained on industry-standard software like ArcGIS. His research focus includes Remote Sensing and Spatial Analysis.14",
+    "aliases": [
+      "Dr. Michael Aduah"
+    ],
+    "source_section": "Department of Geomatic Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "pascal-zini",
+    "full_name": "Pascal Zini",
+    "title": null,
+    "rank_role": "Lecturer",
+    "faculty_id": "fges",
+    "department_id": "department-of-geomatic-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "A key researcher in the department. His work moves beyond technical surveying into the socio-legal realm. He has published on Compensation Management, Land Administration, and Information Systems. This is a critical niche in Ghana, where land disputes often plague mining projects.16",
+    "aliases": [],
+    "source_section": "Department of Geomatic Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "mustapha-okyere",
+    "full_name": "Mustapha Okyere",
+    "title": null,
+    "rank_role": "Assistant Lecturer",
+    "faculty_id": "fges",
+    "department_id": "department-of-geomatic-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [
+      "Land Economy"
+    ],
+    "bio": "A younger academic with a strong background in Land Economy. He holds an MSc in Land Governance and Policy and a BSc in Land Economy from KNUST. Before joining UMaT, he worked as a field officer with Pacific Real Estate Advisors. His research traverses Land Tenure Systems, Displacement, Resettlement, and Property Valuation. He is a professional member of the Ghana Institution of Surveyors.16",
+    "aliases": [],
+    "source_section": "Department of Geomatic Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "joseph-adibah",
+    "full_name": "Joseph Adibah",
+    "title": null,
+    "rank_role": "Technician",
+    "faculty_id": "fges",
+    "department_id": "department-of-geomatic-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "While not a lecturer, Mr. Adibah is a critical member of the academic support staff. As a Technician, he manages the Geomatics laboratories, ensuring that total stations, GPS receivers, and other delicate surveying instruments are calibrated and available for practical sessions.14",
+    "aliases": [],
+    "source_section": "Department of Geomatic Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "eric-stemn",
+    "full_name": "Eric Stemn",
+    "title": "Dr",
+    "rank_role": "Head of Department",
+    "faculty_id": "fges",
+    "department_id": "department-of-environmental-and-safety-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "Dr. Stemn leads the department with a focus on Occupational Health and Safety (OHS) and Environmental Management. He actively engages in campus-wide initiatives, such as waste segregation projects, demonstrating a commitment to practical environmental stewardship. His research likely informs national policy on mine safety standards.15",
+    "aliases": [
+      "Dr. Eric Stemn"
+    ],
+    "source_section": "Department of Environmental and Safety Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "eric-attiah",
+    "full_name": "Eric Attiah",
+    "title": null,
+    "rank_role": "Researcher / Project Author",
+    "faculty_id": "fges",
+    "department_id": "department-of-environmental-and-safety-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "Although his current status as a lecturer vs. researcher requires nuance (cited as an author on UMaT papers), his work is fundamental to the department's output. He has conducted extensive studies using Structural Equation Modeling (SEM) to analyze accident causation in construction firms (specifically Justmoh Construction). His research identifies organizational and environmental factors as primary drivers of workplace accidents.17",
+    "aliases": [],
+    "source_section": "Department of Environmental and Safety Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "a-simons",
+    "full_name": "A. Simons",
+    "title": "Prof",
+    "rank_role": "Pro Vice Chancellor Connection",
+    "faculty_id": "foe",
+    "department_id": "department-of-mechanical-engineering",
+    "campus": "Tarkwa Campus",
+    "specializations": [],
+    "bio": "is a member of this faculty. His specialization in Internal Combustion Engines is directly relevant to the fleet of diesel-heavy haul trucks used in surface mining",
+    "aliases": [
+      "Prof. A. Simons"
+    ],
+    "source_section": "Department of Mechanical Engineering",
+    "source_notes": "is a member of this faculty. His specialization in Internal Combustion Engines is directly relevant to the fleet of diesel-heavy haul trucks used in surface mining",
+    "is_active": true
+  },
+  {
+    "id": "issaka-yakubu",
+    "full_name": "Issaka Yakubu",
+    "title": "Prof",
+    "rank_role": "Dean",
+    "faculty_id": "srid",
+    "department_id": null,
+    "campus": "Essikado Campus",
+    "specializations": [],
+    "bio": "",
+    "aliases": [
+      "Prof. Issaka Yakubu"
+    ],
+    "source_section": "School of Railways and Infrastructure Development (SRID)",
+    "source_notes": "",
+    "is_active": true
+  },
+  {
+    "id": "evans-obu",
+    "full_name": "Evans Obu",
+    "title": "Mr",
+    "rank_role": "Lecturer",
+    "faculty_id": "srid",
+    "department_id": "department-of-computing-and-data-analytics-engineering",
+    "campus": "Essikado Campus",
+    "specializations": [
+      "Software Engineering",
+      "Cloud Computing",
+      "Educational Technology",
+      "Computer Networks",
+      "Security"
+    ],
+    "bio": "A versatile academic with a portfolio that bridges Computer Science and Engineering. His specializations include Software Engineering, Cloud Computing, Educational Technology, and Computer Networks and Security. He is actively involved in supervising student capstone projects, such as the development of \"Smart Building Energy Management Systems\" using Arduino and IoT sensors. This indicates a hands-on, prototyping-based teaching style.7",
+    "aliases": [
+      "Mr. Evans Obu"
+    ],
+    "source_section": "Department of Computing and Data Analytics / Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "thomas-kwantwi",
+    "full_name": "Thomas Kwantwi",
+    "title": "Mr",
+    "rank_role": "Lecturer",
+    "faculty_id": "srid",
+    "department_id": "department-of-computing-and-data-analytics-engineering",
+    "campus": "Essikado Campus",
+    "specializations": [
+      "the hardware-software interface",
+      "Computer Networks",
+      "Security",
+      "Computer Architecture",
+      "Embedded Systems Design",
+      "Database Systems"
+    ],
+    "bio": "Specializes in the hardware-software interface. His areas of expertise are Computer Networks and Security, Computer Architecture, Embedded Systems Design, and Database Systems. In the context of a railway school, Mr. Kwantwi\u2019s skills are essential for teaching railway signaling systems, automated switching, and SCADA (Supervisory Control and Data Acquisition) systems used in modern rail transport.7",
+    "aliases": [
+      "Mr. Thomas Kwantwi"
+    ],
+    "source_section": "Department of Computing and Data Analytics / Engineering",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "f-boateng",
+    "full_name": "F. Boateng",
+    "title": "Dr",
+    "rank_role": "Lecturer",
+    "faculty_id": "fims",
+    "department_id": "department-of-management-studies",
+    "campus": "Tarkwa Campus",
+    "specializations": [
+      "highly specialized",
+      "critical for the mining sector: Corporate Governance",
+      "Corporate Social Responsibility (CSR)",
+      "Mine Financial Administration",
+      "Asset Retirement Obligations (ARO)"
+    ],
+    "bio": "A lecturer with a formidable international academic background. He holds a PhD from Walden University (USA), an MPhil from KNUST, and an MBA from Leicester (UK). His research interests are highly specialized and critical for the mining sector: Corporate Governance, Corporate Social Responsibility (CSR), Mine Financial Administration, and Asset Retirement Obligations (ARO). Dr. Boateng teaches engineers how to account for the millions of dollars required to close a mine safely and legally.10",
+    "aliases": [
+      "Dr. F. Boateng"
+    ],
+    "source_section": "Department of Management Studies",
+    "source_notes": null,
+    "is_active": true
+  },
+  {
+    "id": "sefam-abra-afewu",
+    "full_name": "Sefam Abra Afewu",
+    "title": "Mrs",
+    "rank_role": "Assistant Registrar",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [],
+    "bio": "She works within the Works and Physical Development Office. Her role is critical in managing the university's expanding real estate, including the construction of new lecture blocks and the maintenance of existing laboratories. She represents the university in receiving donations of physical infrastructure, such as waste management receptacles.15",
+    "aliases": [
+      "Mrs. Sefam Abra Afewu"
+    ],
+    "source_section": "Works and Physical Development",
+    "source_notes": "She works within the Works and Physical Development Office. Her role is critical in managing the university's expanding real estate, including the construction of new lecture blocks and the maintenance of existing laboratories. She represents the university in receiving donations of physical infrastructure, such as waste management receptacles.15",
+    "is_active": true
+  },
+  {
+    "id": "frank-ahiadome",
+    "full_name": "Frank Ahiadome",
+    "title": "Mr",
+    "rank_role": "Head of IT",
+    "faculty_id": null,
+    "department_id": null,
+    "campus": null,
+    "specializations": [],
+    "bio": "In a modern university, the Head of IT is as important as any Dean. Mr. Ahiadome oversees the university\u2019s network infrastructure, the deployment of Learning Management Systems (LMS), and the acquisition of software licenses (like ArcGIS). He ensures that the digital backbone of the university can support data-intensive research.14",
+    "aliases": [
+      "Mr. Frank Ahiadome"
+    ],
+    "source_section": "Information Technology (IT) Services",
+    "source_notes": "In a modern university, the Head of IT is as important as any Dean. Mr. Ahiadome oversees the university\u2019s network infrastructure, the deployment of Learning Management Systems (LMS), and the acquisition of software licenses (like ArcGIS). He ensures that the digital backbone of the university can support data-intensive research.14",
+    "is_active": true
+  }
+]

@@ -1,0 +1,211 @@
+[
+  {
+    "id": "department-of-mining-engineering",
+    "faculty_id": "fmmt",
+    "name": "Department of Mining Engineering",
+    "aliases": [
+      "Mining Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Mining Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Mining and Minerals Technology (FMMT) administrative office.",
+    "notes": "This department is the training ground for the engineers who design, excavate, and manage mine sites. The academic staff here must possess a blend of high-level theoretical knowledge in rock mechanics and practical experience in mine design"
+  },
+  {
+    "id": "department-of-minerals-engineering",
+    "faculty_id": "fmmt",
+    "name": "Department of Minerals Engineering",
+    "aliases": [
+      "Minerals Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Minerals Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Mining and Minerals Technology (FMMT) administrative office.",
+    "notes": "Once the ore is out of the ground, the Department of Minerals Engineering takes over. This department focuses on the chemical and physical processes required to separate valuable minerals from waste rock (gangue)"
+  },
+  {
+    "id": "department-of-geomatic-engineering",
+    "faculty_id": "fges",
+    "name": "Department of Geomatic Engineering",
+    "aliases": [
+      "Geomatic Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Geomatic Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Geosciences and Environmental Studies (FGES) administrative office.",
+    "notes": "This department focuses on the science of measurement and mapping. In the context of mining, Geomatic Engineers are responsible for defining the boundaries of concessions and monitoring the stability of pit walls"
+  },
+  {
+    "id": "department-of-environmental-and-safety-engineering",
+    "faculty_id": "fges",
+    "name": "Department of Environmental and Safety Engineering",
+    "aliases": [
+      "Environmental and Safety Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Environmental and Safety Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Geosciences and Environmental Studies (FGES) administrative office.",
+    "notes": "This department is the \"conscience\" of the university, training engineers to mitigate the hazards of mining"
+  },
+  {
+    "id": "department-of-geological-engineering",
+    "faculty_id": "fges",
+    "name": "Department of Geological Engineering",
+    "aliases": [
+      "Geological Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Geological Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Geosciences and Environmental Studies (FGES) administrative office.",
+    "notes": "* Role: Staff here teach Exploration Geology, Mineralogy, and Petrology. They provide the foundational science that Mining Engineers rely upon.5"
+  },
+  {
+    "id": "department-of-mechanical-engineering",
+    "faculty_id": "foe",
+    "name": "Department of Mechanical Engineering",
+    "aliases": [
+      "Mechanical Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Mechanical Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Engineering (FoE) administrative office.",
+    "notes": "Mechanical engineering in a mining context is heavily focused on \"Plant Maintenance\" and \"Materials Handling.\" Mines utilize massive crushers, mills, and conveyor systems that require constant mechanical supervision"
+  },
+  {
+    "id": "department-of-electrical-and-electronic-engineering",
+    "faculty_id": "foe",
+    "name": "Department of Electrical and Electronic Engineering",
+    "aliases": [
+      "Electrical and Electronic Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Electrical and Electronic Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Engineering (FoE) administrative office.",
+    "notes": "This department services the power needs of the mines (which often consume as much power as small cities) and the growing field of automation"
+  },
+  {
+    "id": "department-of-renewable-energy-engineering",
+    "faculty_id": "foe",
+    "name": "Department of Renewable Energy Engineering",
+    "aliases": [
+      "Renewable Energy Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Renewable Energy Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Engineering (FoE) administrative office.",
+    "notes": "A relatively new addition, reflecting the global energy transition. The staff here focus on:"
+  },
+  {
+    "id": "department-of-computing-and-data-analytics-engineering",
+    "faculty_id": "srid",
+    "name": "Department of Computing and Data Analytics / Engineering",
+    "aliases": [
+      "Computing and Data Analytics / Engineering"
+    ],
+    "campus": "Essikado Campus",
+    "location_guide": "Visit the departmental office for Department of Computing and Data Analytics / Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office.",
+    "notes": "The SRID is not just about steel wheels on rails; it is designed to be a modern, high-tech hub. The staff profiles in this department reflect a strong emphasis on the \"Internet of Things\" (IoT) and cybersecurity"
+  },
+  {
+    "id": "department-of-management-studies",
+    "faculty_id": "fims",
+    "name": "Department of Management Studies",
+    "aliases": [
+      "Management Studies"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Management Studies at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Integrated Management Science (FIMS) administrative office.",
+    "notes": "Academic Staff Registry:"
+  },
+  {
+    "id": "department-of-technical-communication",
+    "faculty_id": "fims",
+    "name": "Department of Technical Communication",
+    "aliases": [
+      "Technical Communication"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Technical Communication at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Integrated Management Science (FIMS) administrative office.",
+    "notes": "This department addresses a common gap in engineering education: the ability to write and speak clearly. Staff here teach Technical Report Writing, Public Relations, and Communication Skills.23"
+  },
+  {
+    "id": "department-of-computer-science-and-engineering",
+    "faculty_id": "fcams",
+    "name": "Department of Computer Science and Engineering",
+    "aliases": [
+      "Computer Science and Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Computer Science and Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Computing and Mathematical Sciences (FCaMS) administrative office.",
+    "notes": "This department shares intellectual resources with the SRID campus. Staff like Mr. Evans Obu operate across this matrix, ensuring that students at the Tarkwa main campus also receive training in Cloud Computing and Security.20"
+  },
+  {
+    "id": "department-of-mathematical-sciences",
+    "faculty_id": "fcams",
+    "name": "Department of Mathematical Sciences",
+    "aliases": [
+      "Mathematical Sciences"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Mathematical Sciences at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Computing and Mathematical Sciences (FCaMS) administrative office.",
+    "notes": "Staff here are responsible for teaching Engineering Mathematics, Calculus, and Statistics. These modules are prerequisites for every engineering degree offered at the university.23"
+  },
+  {
+    "id": "department-of-geomatic-and-civil-engineering",
+    "faculty_id": "srid",
+    "name": "Department of Geomatic and Civil Engineering",
+    "aliases": [
+      "Geomatic and Civil Engineering"
+    ],
+    "campus": "Essikado Campus",
+    "location_guide": "Visit the departmental office for Department of Geomatic and Civil Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office.",
+    "notes": "Focused on railway alignment and track geometry"
+  },
+  {
+    "id": "department-of-geological-and-environmental-engineering",
+    "faculty_id": "srid",
+    "name": "Department of Geological and Environmental Engineering",
+    "aliases": [
+      "Geological and Environmental Engineering"
+    ],
+    "campus": "Essikado Campus",
+    "location_guide": "Visit the departmental office for Department of Geological and Environmental Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office.",
+    "notes": "Focused on the geotechnical stability of rail corridors"
+  },
+  {
+    "id": "department-of-electrical-and-mechanical-engineering",
+    "faculty_id": "srid",
+    "name": "Department of Electrical and Mechanical Engineering",
+    "aliases": [
+      "Electrical and Mechanical Engineering"
+    ],
+    "campus": "Essikado Campus",
+    "location_guide": "Visit the departmental office for Department of Electrical and Mechanical Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office.",
+    "notes": "Focused on rolling stock (locomotives) maintenance and overhead electrification systems.8"
+  },
+  {
+    "id": "department-of-petroleum-and-natural-gas-engineering",
+    "faculty_id": "spets",
+    "name": "Department of Petroleum and Natural Gas Engineering",
+    "aliases": [
+      "Petroleum and Natural Gas Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Petroleum and Natural Gas Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the School of Petroleum Studies (SPeTs) administrative office.",
+    "notes": "Reservoir engineering and drilling"
+  },
+  {
+    "id": "department-of-petroleum-geosciences-and-engineering",
+    "faculty_id": "spets",
+    "name": "Department of Petroleum Geosciences and Engineering",
+    "aliases": [
+      "Petroleum Geosciences and Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Petroleum Geosciences and Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the School of Petroleum Studies (SPeTs) administrative office.",
+    "notes": "Seismic interpretation and basin analysis"
+  },
+  {
+    "id": "department-of-chemical-and-petrochemical-engineering",
+    "faculty_id": "spets",
+    "name": "Department of Chemical and Petrochemical Engineering",
+    "aliases": [
+      "Chemical and Petrochemical Engineering"
+    ],
+    "campus": "Tarkwa Campus",
+    "location_guide": "Visit the departmental office for Department of Chemical and Petrochemical Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the School of Petroleum Studies (SPeTs) administrative office.",
+    "notes": "Refining and downstream processing.8"
+  }
+]
