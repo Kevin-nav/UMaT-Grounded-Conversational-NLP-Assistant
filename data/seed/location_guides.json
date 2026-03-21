@@ -1,0 +1,184 @@
+[
+  {
+    "id": "guide-fmmt",
+    "faculty_id": "fmmt",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "directions_text": "The Faculty of Mining and Minerals Technology (FMMT) is based on the Tarkwa Campus. Start at the faculty office or central reception for directions to individual departments."
+  },
+  {
+    "id": "guide-fges",
+    "faculty_id": "fges",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "directions_text": "The Faculty of Geosciences and Environmental Studies (FGES) is based on the Tarkwa Campus. Start at the faculty office or central reception for directions to individual departments."
+  },
+  {
+    "id": "guide-foe",
+    "faculty_id": "foe",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "directions_text": "The Faculty of Engineering (FoE) is based on the Tarkwa Campus. Start at the faculty office or central reception for directions to individual departments."
+  },
+  {
+    "id": "guide-srid",
+    "faculty_id": "srid",
+    "department_id": null,
+    "campus": "Essikado Campus",
+    "directions_text": "The School of Railways and Infrastructure Development (SRID) is based on the Essikado Campus. Start at the faculty office or central reception for directions to individual departments."
+  },
+  {
+    "id": "guide-fims",
+    "faculty_id": "fims",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "directions_text": "The Faculty of Integrated Management Science (FIMS) is based on the Tarkwa Campus. Start at the faculty office or central reception for directions to individual departments."
+  },
+  {
+    "id": "guide-fcams",
+    "faculty_id": "fcams",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "directions_text": "The Faculty of Computing and Mathematical Sciences (FCaMS) is based on the Tarkwa Campus. Start at the faculty office or central reception for directions to individual departments."
+  },
+  {
+    "id": "guide-spets",
+    "faculty_id": "spets",
+    "department_id": null,
+    "campus": "Tarkwa Campus",
+    "directions_text": "The School of Petroleum Studies (SPeTs) is based on the Tarkwa Campus. Start at the faculty office or central reception for directions to individual departments."
+  },
+  {
+    "id": "guide-department-of-mining-engineering",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-mining-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Mining Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Mining and Minerals Technology (FMMT) administrative office."
+  },
+  {
+    "id": "guide-department-of-minerals-engineering",
+    "faculty_id": "fmmt",
+    "department_id": "department-of-minerals-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Minerals Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Mining and Minerals Technology (FMMT) administrative office."
+  },
+  {
+    "id": "guide-department-of-geomatic-engineering",
+    "faculty_id": "fges",
+    "department_id": "department-of-geomatic-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Geomatic Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Geosciences and Environmental Studies (FGES) administrative office."
+  },
+  {
+    "id": "guide-department-of-environmental-and-safety-engineering",
+    "faculty_id": "fges",
+    "department_id": "department-of-environmental-and-safety-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Environmental and Safety Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Geosciences and Environmental Studies (FGES) administrative office."
+  },
+  {
+    "id": "guide-department-of-geological-engineering",
+    "faculty_id": "fges",
+    "department_id": "department-of-geological-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Geological Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Geosciences and Environmental Studies (FGES) administrative office."
+  },
+  {
+    "id": "guide-department-of-mechanical-engineering",
+    "faculty_id": "foe",
+    "department_id": "department-of-mechanical-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Mechanical Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Engineering (FoE) administrative office."
+  },
+  {
+    "id": "guide-department-of-electrical-and-electronic-engineering",
+    "faculty_id": "foe",
+    "department_id": "department-of-electrical-and-electronic-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Electrical and Electronic Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Engineering (FoE) administrative office."
+  },
+  {
+    "id": "guide-department-of-renewable-energy-engineering",
+    "faculty_id": "foe",
+    "department_id": "department-of-renewable-energy-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Renewable Energy Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Engineering (FoE) administrative office."
+  },
+  {
+    "id": "guide-department-of-computing-and-data-analytics-engineering",
+    "faculty_id": "srid",
+    "department_id": "department-of-computing-and-data-analytics-engineering",
+    "campus": "Essikado Campus",
+    "directions_text": "Visit the departmental office for Department of Computing and Data Analytics / Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office."
+  },
+  {
+    "id": "guide-department-of-management-studies",
+    "faculty_id": "fims",
+    "department_id": "department-of-management-studies",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Management Studies at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Integrated Management Science (FIMS) administrative office."
+  },
+  {
+    "id": "guide-department-of-technical-communication",
+    "faculty_id": "fims",
+    "department_id": "department-of-technical-communication",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Technical Communication at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Integrated Management Science (FIMS) administrative office."
+  },
+  {
+    "id": "guide-department-of-computer-science-and-engineering",
+    "faculty_id": "fcams",
+    "department_id": "department-of-computer-science-and-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Computer Science and Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Computing and Mathematical Sciences (FCaMS) administrative office."
+  },
+  {
+    "id": "guide-department-of-mathematical-sciences",
+    "faculty_id": "fcams",
+    "department_id": "department-of-mathematical-sciences",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Mathematical Sciences at the Tarkwa Campus. If you are unsure of the exact building, start at the Faculty of Computing and Mathematical Sciences (FCaMS) administrative office."
+  },
+  {
+    "id": "guide-department-of-geomatic-and-civil-engineering",
+    "faculty_id": "srid",
+    "department_id": "department-of-geomatic-and-civil-engineering",
+    "campus": "Essikado Campus",
+    "directions_text": "Visit the departmental office for Department of Geomatic and Civil Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office."
+  },
+  {
+    "id": "guide-department-of-geological-and-environmental-engineering",
+    "faculty_id": "srid",
+    "department_id": "department-of-geological-and-environmental-engineering",
+    "campus": "Essikado Campus",
+    "directions_text": "Visit the departmental office for Department of Geological and Environmental Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office."
+  },
+  {
+    "id": "guide-department-of-electrical-and-mechanical-engineering",
+    "faculty_id": "srid",
+    "department_id": "department-of-electrical-and-mechanical-engineering",
+    "campus": "Essikado Campus",
+    "directions_text": "Visit the departmental office for Department of Electrical and Mechanical Engineering at the Essikado Campus. If you are unsure of the exact building, start at the School of Railways and Infrastructure Development (SRID) administrative office."
+  },
+  {
+    "id": "guide-department-of-petroleum-and-natural-gas-engineering",
+    "faculty_id": "spets",
+    "department_id": "department-of-petroleum-and-natural-gas-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Petroleum and Natural Gas Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the School of Petroleum Studies (SPeTs) administrative office."
+  },
+  {
+    "id": "guide-department-of-petroleum-geosciences-and-engineering",
+    "faculty_id": "spets",
+    "department_id": "department-of-petroleum-geosciences-and-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Petroleum Geosciences and Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the School of Petroleum Studies (SPeTs) administrative office."
+  },
+  {
+    "id": "guide-department-of-chemical-and-petrochemical-engineering",
+    "faculty_id": "spets",
+    "department_id": "department-of-chemical-and-petrochemical-engineering",
+    "campus": "Tarkwa Campus",
+    "directions_text": "Visit the departmental office for Department of Chemical and Petrochemical Engineering at the Tarkwa Campus. If you are unsure of the exact building, start at the School of Petroleum Studies (SPeTs) administrative office."
+  }
+]

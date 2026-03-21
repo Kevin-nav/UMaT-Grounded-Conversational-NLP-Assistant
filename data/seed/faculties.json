@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fmmt",
+    "name": "Faculty of Mining and Minerals Technology (FMMT)",
+    "short_name": "FMMT",
+    "campus": "Tarkwa Campus",
+    "description": "The Faculty of Mining and Minerals Technology is the flagship academic unit of UMaT. It is the direct descendant of the original Tarkwa School of Mines and represents the university's core competency. The faculty is bifurcated into extraction (Mining) and processing (Minerals)"
+  },
+  {
+    "id": "fges",
+    "name": "Faculty of Geosciences and Environmental Studies (FGES)",
+    "short_name": "FGES",
+    "campus": "Tarkwa Campus",
+    "description": "As the extractive industries face increasing scrutiny regarding their ecological footprint, the Faculty of Geosciences and Environmental Studies has grown in strategic importance. This faculty manages the \"earth\" and \"safety\" aspects of the curriculum"
+  },
+  {
+    "id": "foe",
+    "name": "Faculty of Engineering (FoE)",
+    "short_name": "FoE",
+    "campus": "Tarkwa Campus",
+    "description": "The Faculty of Engineering represents UMaT\u2019s diversification beyond the earth sciences. It houses the classical engineering disciplines\u2014Electrical, Mechanical, and Renewable Energy\u2014that are essential for the operation of heavy industry"
+  },
+  {
+    "id": "srid",
+    "name": "School of Railways and Infrastructure Development (SRID)",
+    "short_name": "SRID",
+    "campus": "Essikado Campus",
+    "description": "The School of Railways and Infrastructure Development (SRID) is the most significant strategic expansion in UMaT\u2019s recent history. Located at the Essikado Campus (occupying the old Railway Training School facilities), this school is a direct response to the Government of Ghana\u2019s Master Plan to revitalize the railway network"
+  },
+  {
+    "id": "fims",
+    "name": "Faculty of Integrated Management Science (FIMS)",
+    "short_name": "FIMS",
+    "campus": "Tarkwa Campus",
+    "description": "Engineering excellence without management competence leads to project failure. FIMS was established to breed \"Management Engineers.\""
+  },
+  {
+    "id": "fcams",
+    "name": "Faculty of Computing and Mathematical Sciences (FCaMS)",
+    "short_name": "FCaMS",
+    "campus": "Tarkwa Campus",
+    "description": "This faculty provides the mathematical bedrock for all other departments"
+  },
+  {
+    "id": "spets",
+    "name": "School of Petroleum Studies (SPeTs)",
+    "short_name": "SPeTs",
+    "campus": "Tarkwa Campus",
+    "description": "Located on the main campus, this school was UMaT\u2019s answer to Ghana\u2019s discovery of oil in commercial quantities in 2007"
+  }
+]

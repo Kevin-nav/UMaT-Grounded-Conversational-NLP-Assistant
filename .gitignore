@@ -6,8 +6,12 @@ __pycache__/
 .ruff_cache/
 backend/.venv/
 backend/app.db
+backend/artifacts/
+backend/umat_staff_chatbot_backend.egg-info/
 frontend/node_modules/
 frontend/dist/
 frontend/coverage/
+frontend/*.tgz
 *.log
 .worktrees/
+desktop.ini
