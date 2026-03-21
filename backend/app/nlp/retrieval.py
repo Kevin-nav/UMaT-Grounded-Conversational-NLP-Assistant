@@ -24,14 +24,21 @@ def _best_staff_score(member: StaffMember, query: str, intent: str) -> float:
         effective_query = re.sub(r"^(who is|who s|tell me about)\s+", "", query).strip()
         effective_query = re.sub(r"^the\s+", "", effective_query).strip()
     elif intent == "specialization_lookup":
-        effective_query = re.sub(r"^(who specializes in|who teaches|who researches?)\s+", "", query).strip()
+        effective_query = re.sub(
+            r"^(who specializes in|who teaches|who researches?)\s+", "", query
+        ).strip()
 
     if intent == "role_lookup":
         candidates = [member.rank_role or ""]
     elif intent == "specialization_lookup":
         candidates = list(member.specializations or [])
     else:
-        candidates = [member.full_name, *(member.aliases or []), member.rank_role or "", *(member.specializations or [])]
+        candidates = [
+            member.full_name,
+            *(member.aliases or []),
+            member.rank_role or "",
+            *(member.specializations or []),
+        ]
 
     best = 0.0
     normalized_query = effective_query.lower()
@@ -54,7 +61,9 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
     departments = db.scalars(select(Department)).all()
     faculties = db.scalars(select(Faculty)).all()
     guides = db.scalars(select(LocationGuide)).all()
-    guide_by_department = {guide.department_id: guide for guide in guides if guide.department_id}
+    guide_by_department = {
+        guide.department_id: guide for guide in guides if guide.department_id
+    }
 
     nlp = build_nlp(staff, departments, faculties)
     doc = nlp(normalized)
@@ -63,41 +72,66 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
 
     if intent in {"person_lookup", "role_lookup", "specialization_lookup", "ambiguous"}:
         if intent == "role_lookup":
-            role_query = re.sub(r"^(who is|who s|tell me about)\s+", "", normalized).strip()
+            role_query = re.sub(
+                r"^(who is|who s|tell me about)\s+", "", normalized
+            ).strip()
             role_query = re.sub(r"^the\s+", "", role_query).strip()
-            exact_role_matches = [
-                member
-                for member in staff
-                if member.rank_role
-                and (
-                    normalize_query(member.rank_role) == role_query
-                    or role_query in normalize_query(member.rank_role)
-                )
+            exact_matches = [
+                m
+                for m in staff
+                if m.rank_role and normalize_query(m.rank_role) == role_query
             ]
-            if exact_role_matches:
-                exact_role_matches.sort(
-                    key=lambda member: (
-                        0 if normalize_query(member.rank_role or "") == role_query else 1,
-                        len(normalize_query(member.rank_role or "")),
+            partial_matches = [
+                m
+                for m in staff
+                if m.rank_role
+                and role_query in normalize_query(m.rank_role)
+                and m not in exact_matches
+            ]
+            partial_matches.sort(key=lambda m: len(normalize_query(m.rank_role or "")))
+            all_matches = exact_matches + partial_matches
+            if all_matches:
+                if len(exact_matches) == 1:
+                    top_member = exact_matches[0]
+                    response = ChatQueryResponse(
+                        intent="role_lookup",
+                        confidence="high",
+                        answer=build_staff_answer(
+                            top_member,
+                            guide_by_department.get(top_member.department_id),
+                        ),
+                        matches=[
+                            MatchItem(
+                                id=member.id,
+                                label=member.full_name,
+                                kind="staff",
+                                score=100.0 if member in exact_matches else 80.0,
+                                details=member.rank_role,
+                            )
+                            for member in all_matches[:5]
+                        ],
+                        suggested_queries=[],
                     )
-                )
-                top_member = exact_role_matches[0]
-                response = ChatQueryResponse(
-                    intent="role_lookup",
-                    confidence="high",
-                    answer=build_staff_answer(top_member, guide_by_department.get(top_member.department_id)),
-                    matches=[
-                        MatchItem(
-                            id=member.id,
-                            label=member.full_name,
-                            kind="staff",
-                            score=100.0 if normalize_query(member.rank_role or "") == role_query else 80.0,
-                            details=member.rank_role,
-                        )
-                        for member in exact_role_matches[:5]
-                    ],
-                    suggested_queries=[],
-                )
+                else:
+                    response = ChatQueryResponse(
+                        intent="ambiguous",
+                        confidence="medium",
+                        answer="I found several likely matches. Pick one of these staff profiles.",
+                        matches=[
+                            MatchItem(
+                                id=member.id,
+                                label=member.full_name,
+                                kind="staff",
+                                score=100.0 if member in exact_matches else 80.0,
+                                details=member.rank_role,
+                            )
+                            for member in all_matches[:5]
+                        ],
+                        suggested_queries=[
+                            f"Tell me about {member.full_name}"
+                            for member in all_matches[:3]
+                        ],
+                    )
                 db.add(
                     QueryLog(
                         query_text=query,
@@ -117,7 +151,13 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
         if candidates:
             top_score, top_member = candidates[0]
             top_matches = [
-                MatchItem(id=member.id, label=member.full_name, kind="staff", score=score, details=member.rank_role)
+                MatchItem(
+                    id=member.id,
+                    label=member.full_name,
+                    kind="staff",
+                    score=score,
+                    details=member.rank_role,
+                )
                 for score, member in candidates[:5]
             ]
             if len(candidates) > 1 and top_score - candidates[1][0] < 5:
@@ -126,13 +166,18 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
                     confidence="medium",
                     answer="I found several likely matches. Pick one of these staff profiles.",
                     matches=top_matches,
-                    suggested_queries=[f"Tell me about {member.full_name}" for _, member in candidates[:3]],
+                    suggested_queries=[
+                        f"Tell me about {member.full_name}"
+                        for _, member in candidates[:3]
+                    ],
                 )
             else:
                 response = ChatQueryResponse(
                     intent=intent,
                     confidence=confidence,
-                    answer=build_staff_answer(top_member, guide_by_department.get(top_member.department_id)),
+                    answer=build_staff_answer(
+                        top_member, guide_by_department.get(top_member.department_id)
+                    ),
                     matches=top_matches,
                     suggested_queries=[],
                 )
@@ -149,7 +194,11 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
 
     department_candidates: list[tuple[float, Department]] = []
     for department in departments:
-        searchable = [department.name, *(department.aliases or []), department.notes or ""]
+        searchable = [
+            department.name,
+            *(department.aliases or []),
+            department.notes or "",
+        ]
         score = max(_score(token, normalized) for token in searchable if token)
         if score >= 55:
             department_candidates.append((score, department))
@@ -157,16 +206,33 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
 
     if department_candidates:
         top_score, top_department = department_candidates[0]
-        faculty = db.get(Faculty, top_department.faculty_id) if top_department.faculty_id else None
+        faculty = (
+            db.get(Faculty, top_department.faculty_id)
+            if top_department.faculty_id
+            else None
+        )
         response = ChatQueryResponse(
-            intent="location_lookup" if "where" in normalized or "office" in normalized else "department_lookup",
+            intent="location_lookup"
+            if "where" in normalized or "office" in normalized
+            else "department_lookup",
             confidence="high" if top_score >= 80 else "medium",
-            answer=build_department_answer(top_department, faculty, guide_by_department.get(top_department.id)),
+            answer=build_department_answer(
+                top_department, faculty, guide_by_department.get(top_department.id)
+            ),
             matches=[
-                MatchItem(id=department.id, label=department.name, kind="department", score=score, details=department.campus)
+                MatchItem(
+                    id=department.id,
+                    label=department.name,
+                    kind="department",
+                    score=score,
+                    details=department.campus,
+                )
                 for score, department in department_candidates[:5]
             ],
-            suggested_queries=[f"Who works in {top_department.name}?", f"Where is {top_department.name}?"],
+            suggested_queries=[
+                f"Who works in {top_department.name}?",
+                f"Where is {top_department.name}?",
+            ],
         )
         db.add(
             QueryLog(
@@ -180,17 +246,40 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
         return response
 
     faculty_match = db.scalar(
-        select(Faculty).where(or_(Faculty.name.ilike(f"%{normalized}%"), Faculty.short_name.ilike(f"%{normalized}%")))
+        select(Faculty).where(
+            or_(
+                Faculty.name.ilike(f"%{normalized}%"),
+                Faculty.short_name.ilike(f"%{normalized}%"),
+            )
+        )
     )
     if faculty_match:
         response = ChatQueryResponse(
             intent="faculty_lookup",
             confidence="medium",
             answer=f"{faculty_match.name} is based on the {faculty_match.campus}.",
-            matches=[MatchItem(id=faculty_match.id, label=faculty_match.name, kind="faculty", score=75.0, details=faculty_match.campus)],
-            suggested_queries=[f"Where is {faculty_match.short_name or faculty_match.name}?", f"Who is the dean of {faculty_match.short_name or faculty_match.name}?"],
+            matches=[
+                MatchItem(
+                    id=faculty_match.id,
+                    label=faculty_match.name,
+                    kind="faculty",
+                    score=75.0,
+                    details=faculty_match.campus,
+                )
+            ],
+            suggested_queries=[
+                f"Where is {faculty_match.short_name or faculty_match.name}?",
+                f"Who is the dean of {faculty_match.short_name or faculty_match.name}?",
+            ],
         )
-        db.add(QueryLog(query_text=query, intent=response.intent, confidence=response.confidence, matched_entity_ids=[faculty_match.id]))
+        db.add(
+            QueryLog(
+                query_text=query,
+                intent=response.intent,
+                confidence=response.confidence,
+                matched_entity_ids=[faculty_match.id],
+            )
+        )
         db.commit()
         return response
 
@@ -205,6 +294,13 @@ def run_chat_query(db: Session, query: str) -> ChatQueryResponse:
             "Where is the Department of Geomatic Engineering?",
         ],
     )
-    db.add(QueryLog(query_text=query, intent=response.intent, confidence=response.confidence, matched_entity_ids=[]))
+    db.add(
+        QueryLog(
+            query_text=query,
+            intent=response.intent,
+            confidence=response.confidence,
+            matched_entity_ids=[],
+        )
+    )
     db.commit()
     return response
