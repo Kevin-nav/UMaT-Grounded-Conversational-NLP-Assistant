@@ -7,6 +7,13 @@ __pycache__/
 backend/.venv/
 backend/app.db
 backend/artifacts/
+!backend/artifacts/umat_nlp_project/
+!backend/artifacts/umat_nlp_project/canonical_dataset.json
+!backend/artifacts/umat_nlp_project/evaluation_summary.json
+!backend/artifacts/umat_nlp_project/retriever/
+!backend/artifacts/umat_nlp_project/retriever/retriever_artifact.json
+!backend/artifacts/umat_nlp_project/generator/
+!backend/artifacts/umat_nlp_project/generator/generator_artifact.json
 backend/umat_staff_chatbot_backend.egg-info/
 frontend/node_modules/
 frontend/dist/
